@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_nearby"
+        title="Nearby"
+        icon="@drawable/ic_nearby"
+        barColorWhenSelected="#191919" />
+    <!--<tab-->
+        <!--id="@+id/tab_identify"-->
+        <!--title="Identify"-->
+        <!--icon="@drawable/ic_info"-->
+        <!--barColorWhenSelected="#191919" />-->
+    <tab
+        id="@+id/tab_properties"
+        title="Properties"
+        icon="@drawable/ic_properties"
+        barColorWhenSelected="#191919" />
+    <tab
+        id="@+id/tab_arwrld"
+        title="ArWrld"
+        icon="@mipmap/ic_arwrld_white"
+        barColorWhenSelected="#191919" />
+</tabs>
