@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.arwrld.arwrldexplore">
 
+    <uses-feature android:name="android.hardware.camera.ar" android:required="false" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -30,6 +31,7 @@
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="7d45a0373bcd5900617b256217d056905d07d0ec" />
+        <meta-data android:name="com.google.ar.core" android:value="optional" />
     </application>
 
 </manifest>
