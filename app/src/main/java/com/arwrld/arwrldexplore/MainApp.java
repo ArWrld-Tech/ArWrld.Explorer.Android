@@ -4,8 +4,8 @@ import android.content.Context;
 import android.support.multidex.MultiDex;
 import android.support.multidex.MultiDexApplication;
 
-import com.mapbox.mapboxsdk.Mapbox;
 import com.crashlytics.android.Crashlytics;
+import com.mapbox.mapboxsdk.Mapbox;
 import com.parse.Parse;
 
 import io.fabric.sdk.android.Fabric;

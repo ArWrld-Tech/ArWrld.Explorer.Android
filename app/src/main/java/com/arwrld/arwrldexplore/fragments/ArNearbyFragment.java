@@ -1,6 +1,5 @@
 package com.arwrld.arwrldexplore.fragments;
 
-import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -14,7 +13,6 @@ import android.location.Location;
 import android.net.Uri;
 import android.opengl.Matrix;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.SurfaceView;
 import android.view.View;

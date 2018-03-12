@@ -14,8 +14,8 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.arwrld.arwrldexplore.activity.ArMeasureActivity;
 import com.arwrld.arwrldexplore.R;
+import com.arwrld.arwrldexplore.activity.ArMeasureActivity;
 import com.arwrld.arwrldexplore.location.LocationApi;
 import com.arwrld.arwrldexplore.utils.GeoUtils;
 import com.crashlytics.android.answers.Answers;

@@ -2,8 +2,6 @@ package com.arwrld.arwrldexplore.location;
 
 import android.content.Context;
 
-import java.util.List;
-
 import io.nlopez.smartlocation.OnLocationUpdatedListener;
 import io.nlopez.smartlocation.SmartLocation;
 import io.nlopez.smartlocation.location.config.LocationAccuracy;
