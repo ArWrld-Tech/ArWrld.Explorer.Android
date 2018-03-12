@@ -15,6 +15,13 @@
         title="Properties"
         icon="@drawable/ic_properties"
         barColorWhenSelected="#191919" />
+
+    <tab
+        id="@+id/tab_phase_one"
+        title="Phase 1"
+        icon="@drawable/ic_properties"
+        barColorWhenSelected="#191919" />
+
     <tab
         id="@+id/tab_arwrld"
         title="ArWrld"

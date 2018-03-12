@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ArWrld Explorer</string>
+    <string name="server"></string>
+    <string name="app_id"></string>
+    <string name="client_key"></string>
 </resources>

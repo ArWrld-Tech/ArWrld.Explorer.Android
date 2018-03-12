@@ -29,6 +29,7 @@ import com.arwrld.arwrldexplore.ar.ArOverlayView;
 import com.arwrld.arwrldexplore.ar.ArPoint;
 import com.arwrld.arwrldexplore.fragments.ArNearbyFragment;
 import com.arwrld.arwrldexplore.fragments.ArWrldViewerFragment;
+import com.arwrld.arwrldexplore.fragments.PhaseOnePropsFragment;
 import com.arwrld.arwrldexplore.fragments.PropertiesFragment;
 import com.arwrld.arwrldexplore.location.LocationApi;
 import com.arwrld.arwrldexplore.models.Geosearch;
@@ -95,8 +96,13 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 if(tabId == R.id.tab_properties){
-                    getSupportActionBar().setTitle("ArWrld Properties");
+                    getSupportActionBar().setTitle("Properties Estimator");
                     swapFragment(PropertiesFragment.newInstance());
+                }
+
+                if(tabId == R.id.tab_phase_one){
+                    getSupportActionBar().setTitle("Phase 1 Properties");
+                    swapFragment(PhaseOnePropsFragment.newInstance());
                 }
 
                 if(tabId == R.id.tab_arwrld){

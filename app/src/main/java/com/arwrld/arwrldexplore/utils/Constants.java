@@ -10,5 +10,5 @@ public class Constants {
 
     public static Gson gson = new Gson();
 
-    public static final String SIZE_QUERY = "size_query";
+    public static final String DB_PHASE_1 = "props_phase_1";
 }
